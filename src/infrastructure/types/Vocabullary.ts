@@ -1,0 +1,1 @@
+export type VocabullaryOptionType = "MAIN" | "DAKUTEN" | "HANDAKUTEN";
