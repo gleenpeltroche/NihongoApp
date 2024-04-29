@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { ScrollView } from 'react-native';
+import { ScrollView, View } from 'react-native';
 import { type RouteProp, useRoute, useNavigation, NavigationProp } from '@react-navigation/native';
 import { type RootNavigationStack } from '../../navigation/StackNavigator';
 import { getKanjiDetail } from '../../../actions/kanji/getKanjis';
@@ -11,6 +11,7 @@ import DetailTitle from '../../components/detail/DetailTitle';
 import LoadingScreen from '../loading/LoadingScreen';
 import ModalViewVideo from '../../components/modal/views/ModalVideoDetail';
 import HeaderButton from '../../components/header/HeaderButton';
+import ErrorApiScreen from '../error/ErrorApiScreen';
 
 const KanjiDetail = () => {
     
@@ -18,7 +19,7 @@ const KanjiDetail = () => {
     
     const navigator = useNavigation<NavigationProp<RootNavigationStack>>();
 
-    const [stateKanjiDetail, setStateKanjiDetail] = useState<KanjiDetailEntity>();
+    const [stateKanjiDetail, setStateKanjiDetail] = useState<KanjiDetailEntity | null>();
     const [loading, setLoading] = useState<boolean>(true);
     const [modalVisible, setModalVisible] = useState<boolean>(false);
 
@@ -49,6 +50,12 @@ const KanjiDetail = () => {
     if(loading){
         return (
             <LoadingScreen />
+        )
+    }
+
+    if(!loading && !stateKanjiDetail){
+        return (
+            <ErrorApiScreen />
         )
     }
 

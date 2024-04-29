@@ -4,7 +4,7 @@ import { KanjiDetailApi } from "../../infrastructure/interfaces/kanjiDetail";
 import { KanjiMapper } from "../../infrastructure/mappers/kanjiDetail.mapper";
 
 
-export const getKanjiDetail = async (character: string):Promise<KanjiDetail> => {
+export const getKanjiDetail = async (character: string):Promise<KanjiDetail | null> => {
 
   try {
     
@@ -12,10 +12,10 @@ export const getKanjiDetail = async (character: string):Promise<KanjiDetail> => 
     return KanjiMapper.kanjiDetailApiToEntity(data);
 
   } catch (error) {
-    
-    console.log(error);
-    throw new Error(`Error getting the following kanji: ${ character }`);
 
+    console.log(error);
+    return null
+    
   }
 
 }
