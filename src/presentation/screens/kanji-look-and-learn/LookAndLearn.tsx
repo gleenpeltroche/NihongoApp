@@ -9,7 +9,7 @@ import { LookAndLearnKanjiInterface } from '../../../infrastructure/interfaces/K
 import HeaderButton from '../../components/header/HeaderButton';
 import KanjiCardButton from '../../components/detail/KanjiCardButton';
 
-const LookAndLearn = () => {
+export const LookAndLearn = () => {
 
   const navigation = useNavigation<NavigationProp<RootNavigationStack>>();
   const [modalVisible, setModalVisible] = useState(false);
@@ -38,5 +38,3 @@ const LookAndLearn = () => {
     
   );
 };
-
-export default LookAndLearn;

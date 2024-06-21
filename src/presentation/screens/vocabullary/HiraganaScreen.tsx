@@ -2,7 +2,7 @@ import React from 'react';
 import VocabullaryList from '../../components/vocabullary/VocabullaryList';
 import { hiraganaDakutenList, hiraganaHandakutenList, hiraganaMainList, hiraganaYouonDakutenList, hiraganaYouonHandakutenList, hiraganaYouonList } from '../../../data/hiraganaVocabullary';
 
-const HiraganaScreen = () => {
+export const HiraganaScreen = () => {
   return (
     <VocabullaryList 
       MainList={hiraganaMainList}
@@ -14,5 +14,3 @@ const HiraganaScreen = () => {
     />
   ) 
 }
-
-export default HiraganaScreen;

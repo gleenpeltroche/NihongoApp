@@ -1,9 +1,6 @@
 import * as React from 'react';
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import HomeScreen from '../screens/home/HomeScreen';
-import LookAndLearn from '../screens/kanji-look-and-learn/LookAndLearn';
-import HiraganaScreen from '../screens/vocabullary/HiraganaScreen';
-import KatakanaScreen from '../screens/vocabullary/KatakanaScreen';
+import {HomeScreen, LookAndLearn, HiraganaScreen, KatakanaScreen, MinnaNoNihongo} from '../screens';
 
 const Drawer = createDrawerNavigator();
 
@@ -16,7 +13,7 @@ const DrawerNavigator = () => {
       <Drawer.Screen name="HiraganaScreen" component={HiraganaScreen} options={{title: 'Hiragana Vocabullary'}}/>
       <Drawer.Screen name="KatakanaScreen" component={KatakanaScreen} options={{title: 'Katakana Vocabullary'}}/>
       <Drawer.Screen name="LookAndLearn" component={LookAndLearn} options={{title: 'Kanji Look & Learn'}}/>
-
+      <Drawer.Screen name="MinnaNoNihongo" component={MinnaNoNihongo} options={{title: 'Minna No Nihongo'}}/>
     </Drawer.Navigator>
   );
 }

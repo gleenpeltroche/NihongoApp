@@ -296,7 +296,7 @@ export const LookAndLearnMainList1 = [
     {
         "number": 43,
         "kanji": "門",
-        "meaning": "door",
+        "meaning": "gate",
         "parts": [],
         "similars": []
     },
@@ -422,7 +422,7 @@ export const LookAndLearnMainList1 = [
     {
         "number": 61,
         "kanji": "去",
-        "meaning": "past",
+        "meaning": "past, to leave",
         "parts": [23],
         "similars": []
     },
@@ -982,7 +982,7 @@ export const LookAndLearnMainList1 = [
     {
         "number": 141,
         "kanji": "足",
-        "meaning": "foot,leg",
+        "meaning": "foot, leg",
         "parts": [],
         "similars": [114]
     },
@@ -996,7 +996,7 @@ export const LookAndLearnMainList1 = [
     {
         "number": 143,
         "kanji": "首",
-        "meaning": "neck,head",
+        "meaning": "neck, head",
         "parts": [],
         "similars": [180]
     },
@@ -1038,7 +1038,7 @@ export const LookAndLearnMainList1 = [
     {
         "number": 149,
         "kanji": "空",
-        "meaning": "sky,empty",
+        "meaning": "sky, empty",
         "parts": [38],
         "similars": [262]
     },
@@ -1251,7 +1251,7 @@ export const LookAndLearnMainList2 = [
     {
         "number": 179,
         "kanji": "歌",
-        "meaning": "fun, confortable",
+        "meaning": "to sing",
         "parts": [15,26],
         "similars": []
     },
@@ -1447,7 +1447,7 @@ export const LookAndLearnMainList2 = [
     {
         "number": 207,
         "kanji": "氏",
-        "meaning": "thread",
+        "meaning": "surname",
         "parts": [],
         "similars": [286]
     },
@@ -1734,7 +1734,7 @@ export const LookAndLearnMainList2 = [
     {
         "number": 248,
         "kanji": "急",
-        "meaning": "to wash",
+        "meaning": "to hurry",
         "parts": [139],
         "similars": []
     },
@@ -2154,7 +2154,7 @@ export const LookAndLearnMainList2 = [
     {
         "number": 308,
         "kanji": "屋",
-        "meaning": "place",
+        "meaning": "roof, shop",
         "parts": [23],
         "similars": [210]
     },
@@ -2668,7 +2668,7 @@ export const LookAndLearnMainList3 = [
     {
         "number": 381,
         "kanji": "活",
-        "meaning": "dance",
+        "meaning": "active",
         "parts": [12,15],
         "similars": []
     },

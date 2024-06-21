@@ -2,7 +2,7 @@ import React from 'react';
 import VocabullaryList from '../../components/vocabullary/VocabullaryList';
 import { katakanaDakutenList, katakanaHandakutenList, katakanaMainList, katakanaYouonDakutenList, katakanaYouonHandakutenList, katakanaYouonList } from '../../../data/katakanaVocabullary';
 
-const KatakanaScreen = () => {
+export const KatakanaScreen = () => {
   return (
     <VocabullaryList 
       MainList={katakanaMainList}
@@ -14,5 +14,3 @@ const KatakanaScreen = () => {
     />
   ) 
 }
-
-export default KatakanaScreen;

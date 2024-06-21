@@ -14,6 +14,7 @@ const ModalComponent = ({modalVisible, setModalVisible, children}: Props) => {
             visible={modalVisible}
             // onRequestClose={() => console.log("on close") }
         >
+            <View style={styles.backgroundModal}></View>
             <View style={styles.centeredView}>
                 <View style={styles.modalView}>
                     <Pressable style={styles.close}
@@ -31,17 +32,21 @@ const ModalComponent = ({modalVisible, setModalVisible, children}: Props) => {
 const styles = StyleSheet.create({
     close: {
         position: 'absolute',
-        top: 0,
-        right: 0,
-        height: 40,
-        width: 40,
+        top: -15,
+        right: -15,
+        height: 50,
+        width: 50,
         margin: 5,
+        zIndex: 999,
+        backgroundColor: 'white',
+        borderRadius: 24,
     },
     centeredView: {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        marginTop: 22
+        marginTop: 22,
+        zIndex: 999,
     },
     modalView: {
         position: 'relative',
@@ -59,6 +64,13 @@ const styles = StyleSheet.create({
         shadowOpacity: 0.25,
         shadowRadius: 4,
         elevation: 5,
+    },
+    backgroundModal: {
+        position: 'absolute',
+        zIndex: 1, 
+        height: '100%', 
+        width: '100%', 
+        backgroundColor: 'rgba(0,0,0,0.75)', 
     }
 })
 

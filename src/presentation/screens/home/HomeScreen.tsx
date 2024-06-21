@@ -1,7 +1,7 @@
 import React from 'react';
 import { Layout, Text } from '@ui-kitten/components';
 
-const HomeScreen = () => {
+export const HomeScreen = () => {
   return (
     <Layout style={{flex: 1, justifyContent: 'center', alignItems: 'center', width: "100%"}}>
       <Layout style={{
@@ -12,5 +12,3 @@ const HomeScreen = () => {
     </Layout>
   )
 }
-
-export default HomeScreen;
