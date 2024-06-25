@@ -364,13 +364,13 @@ export const GrammarLesson2 = [
     {
         "title": [
             {
-                text: "そうです",
+                text: "そうです / 違います",
             },
         ],
         "examples": [
             [
                 {
-                    text: "そはグレンさんの車ですか",
+                    text: "それはグレンさんの車ですか",
                 },
             ],
             [
@@ -421,14 +421,28 @@ export const GrammarLesson2 = [
         "examples": [
             [
                 {
-                    text: "それは[り]です",
+                    text: "それは",
+                },
+                {
+                    text: "[り]",
+                    highlight: true,
+                },
+                {
+                    text: "です",
                 },
                 {
                     text: "か",
                     highlight: true,
                 },
                 {
-                    text: "、[リ]です",
+                    text: "、",
+                },
+                {
+                    text: "[リ]",
+                    highlight: true,
+                },
+                {
+                    text: "です",
                 },
                 {
                     text: "か",
@@ -502,7 +516,14 @@ export const GrammarLesson2 = [
         "examples": [
             [
                 {
-                    text: "それはだれの車ですか",
+                    text: "それは",
+                },
+                {
+                    text: "だれの車",
+                    highlight: true,
+                },
+                {
+                    text: "ですか",
                 },
             ],
             [
@@ -546,7 +567,14 @@ export const GrammarLesson2 = [
             ],
             [
                 {
-                    text: "グレンさんはNTTの社員ですか",
+                    text: "グレンさんは",
+                },
+                {
+                    text: "NTTの社員",
+                    highlight: true,
+                },
+                {
+                    text: "ですか",
                 },
             ],
             [
@@ -554,14 +582,14 @@ export const GrammarLesson2 = [
                     text: "     ...",
                 },
                 {
-                    text: "はい、NTTの",
+                    text: "はい、",
                 },
                 {
-                    text: "社員",
+                    text: "NTTの社員[subject]",
                     highlight: true,
                 },
                 {
-                    text: "[subject]です",
+                    text: "です",
                 },
             ],
 
@@ -576,7 +604,11 @@ export const GrammarLesson2 = [
         "examples": [
             [
                 {
-                    text: "(お)酒",
+                    text: "(お)",
+                    highlight: true,
+                },
+                {
+                    text: "酒",
                 },
             ],
         ],
@@ -669,7 +701,7 @@ export const GrammarLesson3 = [
                     text: "は",
                 },
                 {
-                    text: "あそこです",
+                    text: "あそこ",
                     highlight: true,
                 },
                 {
@@ -719,7 +751,7 @@ export const GrammarLesson3 = [
         "examples": [
             [
                 {
-                    text: "会議室はどこですか",
+                    text: "会議室は",
                 },
                 {
                     text: "どこ",
@@ -881,13 +913,364 @@ export const GrammarLesson4 = [
     {
         "title": [
             {
-                text: "title",
+                text: "今一",
+            },
+            {
+                text: "時",
+                highlight: true,
+            },
+            {
+                text: "一",
+            },
+            {
+                text: "分",
+                highlight: true,
+            },
+            {
+                text: "です",
             },
         ],
         "examples": [
             [
                 {
-                    text: "example1",
+                    text: "今",
+                },
+                {
+                    text: "何時",
+                    highlight: true,
+                },
+                {
+                    text: "ですか",
+                },
+            ],
+            [
+                {
+                    text: "     ...12",
+                },
+                {
+                    text: "時",
+                    highlight: true,
+                },
+                {
+                    text: "25",
+                },
+                {
+                    text: "分",
+                    highlight: true,
+                },
+                {
+                    text: "です",
+                },
+            ],
+        ],
+    },
+    {
+        "title": [
+            {
+                text: "Vます / Vません",
+            },
+            {
+                text: "\r\n",
+            },
+            {
+                text: "Vました / Vませんでした",
+            },
+        ],
+        "examples": [
+            [
+                {
+                    text: "わたしは毎日",
+                },
+                {
+                    text: "勉強します",
+                    highlight: true,
+                },
+            ],
+            [
+                {
+                    text: "毎朝7時に",
+                },
+                {
+                    text: "起きます",
+                    highlight: true,
+                },
+            ],
+            [
+                {
+                    text: "あした7時に",
+                },
+                {
+                    text: "起きます",
+                    highlight: true,
+                },
+            ],
+            [
+                {
+                    text: "けさ7時に",
+                },
+                {
+                    text: "起きました",
+                    highlight: true,
+                },
+            ],
+            [
+                {
+                    text: "きのう",
+                },
+                {
+                    text: "勉強しましたか",
+                    highlight: true,
+                },
+            ],
+            [
+                {
+                    text: "     ...は、",
+                },
+                {
+                    text: "勉強しました",
+                    highlight: true,
+                },
+            ],
+            [
+                {
+                    text: "     ...いいえ、",
+                },
+                {
+                    text: "勉強しませんでした",
+                    highlight: true,
+                },
+            ],
+            [
+                {
+                    text: "毎朝何時に",
+                },
+                {
+                    text: "起きますか",
+                    highlight: true,
+                },
+            ],
+            [
+                {
+                    text: "     ...6時に",
+                },
+                {
+                    text: "起きます",
+                    highlight: true,
+                },
+            ],
+        ],
+    },
+    {
+        "title": [
+            {
+                text: "S[Time]",
+                highlight: true,
+            },
+            {
+                text: "にV",
+            },
+        ],
+        "examples": [
+            [
+                {
+                    text: "6時半",
+                    highlight: true,
+                },
+                {
+                    text: "に起きます",
+                },
+            ],
+            [
+                {
+                    text: "7月2日",
+                    highlight: true,
+                },
+                {
+                    text: "に日本へ来ました",
+                },
+            ],
+            [
+                {
+                    text: "きのう",
+                    highlight: true,
+                },
+                {
+                    text: "勉強しました",
+                },
+            ],
+            [
+                {
+                    text: "日曜日",
+                    highlight: true,
+                },
+                {
+                    text: "(に)奈良へ行きます",
+                },
+            ],
+        ],
+    },
+    {
+        "title": [
+            {
+                text: "S1",
+                highlight: true,
+            },
+            {
+                text: "から",
+            },
+            {
+                text: "S2",
+                highlight: true,
+            },
+            {
+                text: "まで",
+            },
+        ],
+        "examples": [
+            [
+                {
+                    text: "9時",
+                },
+                {
+                    text: "から",
+                    highlight: true,
+                },
+                {
+                    text: "7時",
+                },
+                {
+                    text: "まで",
+                    highlight: true,
+                },
+                {
+                    text: "勉強します",
+                },
+            ],
+            [
+                {
+                    text: "大阪",
+                },
+                {
+                    text: "から",
+                    highlight: true,
+                },
+                {
+                    text: "東京",
+                },
+                {
+                    text: "まで",
+                    highlight: true,
+                },
+                {
+                    text: "3時間かかります",
+                },
+            ],
+            [
+                {
+                    text: "9時",
+                },
+                {
+                    text: "から",
+                    highlight: true,
+                },
+                {
+                    text: "働きます",
+                },
+            ],
+            [
+                {
+                    text: "銀行は7時",
+                },
+                {
+                    text: "から",
+                    highlight: true,
+                },
+                {
+                    text: "9時",
+                },
+                {
+                    text: "まで",
+                    highlight: true,
+                },
+                {
+                    text: "です",
+                },
+            ],
+            [
+                {
+                    text: "昼休みは12時",
+                },
+                {
+                    text: "から",
+                    highlight: true,
+                },
+                {
+                    text: "です",
+                },
+            ],
+        ],
+    },
+    {
+        "title": [
+            {
+                text: "S1",
+                highlight: true,
+            },
+            {
+                text: "と",
+            },
+            {
+                text: "S2",
+                highlight: true,
+            },
+        ],
+        "examples": [
+            [
+                {
+                    text: "銀行の休みは土曜日",
+                },
+                {
+                    text: "と",
+                    highlight: true,
+                },
+                {
+                    text: "日曜日です",
+                },
+            ],
+        ],
+    },
+    {
+        "title": [
+            {
+                text: "〜ね",
+            },
+        ],
+        "examples": [
+            [
+                {
+                    text: "毎日10時まで勉強します",
+                },
+            ],
+            [
+                {
+                    text: "     ...大変です",
+                },
+                {
+                    text: "ね",
+                    highlight: true,
+                },
+            ],
+            [
+                {
+                    text: "グレンさんの電話番号は980の542です",
+                },
+            ],
+            [
+                {
+                    text: "     ...980の542です",
+                },
+                {
+                    text: "ね",
                     highlight: true,
                 },
             ],
