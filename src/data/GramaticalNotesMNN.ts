@@ -1282,13 +1282,289 @@ export const GrammarLesson5 = [
     {
         "title": [
             {
-                text: "title",
+                text: "S[Place] ",
+            },
+            {
+                text: "へ",
+                highlight: true,
+            },
+            {
+                text: " 行きます/\r\n",
+            },
+            {
+                text: "来ます / 帰ります",
             },
         ],
         "examples": [
             [
                 {
-                    text: "example1",
+                    text: "日本",
+                },
+                {
+                    text: "へ",
+                    highlight: true,
+                },
+                {
+                    text: "行きます",
+                },
+            ],
+            [
+                {
+                    text: "日本",
+                },
+                {
+                    text: "へ",
+                    highlight: true,
+                },
+                {
+                    text: "来ます",
+                },
+            ],
+            [
+                {
+                    text: "うち",
+                },
+                {
+                    text: "へ",
+                    highlight: true,
+                },
+                {
+                    text: "帰ります",
+                },
+            ],
+        ],
+    },
+    {
+        "title": [
+            {
+                text: "どこ(へ) ",
+
+            },
+            {
+                text: "も",
+                highlight: true,
+            },
+            {
+                text: " 行きません /\r\n",
+            },
+            {
+                text: "行きませんでした",
+            },
+        ],
+        "examples": [
+            [
+                {
+                    text: "どこ(へ)も行きません",
+                },
+                {
+                    text: "も",
+                    highlight: true,
+                },
+                {
+                    text: "行きません",
+                },
+            ],
+            [
+                {
+                    text: "何",
+                },
+                {
+                    text: "も",
+                    highlight: true,
+                },
+                {
+                    text: "食べません",
+                },
+            ],
+            [
+                {
+                    text: "だれ",
+                },
+                {
+                    text: "も",
+                    highlight: true,
+                },
+                {
+                    text: "来ませんでした",
+                },
+            ],
+        ],
+    },
+    {
+        "title": [
+            {
+                text: "S[Vehicle] ",
+            },
+            {
+                text: "で",
+                highlight: true,
+            },
+            {
+                text: " 行きます /\r\n",
+            },
+            {
+                text: "来ます / 帰ります",
+            },
+        ],
+        "examples": [
+            [
+                {
+                    text: "電車",
+                },
+                {
+                    text: "で",
+                    highlight: true,
+                },
+                {
+                    text: "行きます",
+                },
+            ],
+            [
+                {
+                    text: "タクシー",
+                },
+                {
+                    text: "で",
+                    highlight: true,
+                },
+                {
+                    text: "来ます",
+                },
+            ],
+            [
+                {
+                    text: "駅から",
+                },
+                {
+                    text: "歩いて",
+                    highlight: true,
+                },
+                {
+                    text: "帰りました",
+                },
+            ],
+        ],
+    },
+    {
+        "title": [
+            {
+                text: "S[Person/Animal] ",
+            },
+            {
+                text: "と",
+                highlight: true,
+            },
+            {
+                text: "V",
+            },
+        ],
+        "examples": [
+            [
+                {
+                    text: "家族",
+                },
+                {
+                    text: "と",
+                    highlight: true,
+                },
+                {
+                    text: "日本へ来ました",
+                },
+            ],
+            [
+                {
+                    text: "一人で",
+                    highlight: true,
+                },
+                {
+                    text: "日本へ行きます",
+                },
+            ],
+        ],
+    },
+    {
+        "title": [
+            {
+                text: "いつ",
+            },
+        ],
+        "examples": [
+            [
+                {
+                    text: "いつ",
+                    highlight: true,
+                },
+                {
+                    text: "日本へ来ましたか",
+                },
+            ],
+            [
+                {
+                    text: "     ...3月25日に来ました",
+                },
+            ],
+            [
+                {
+                    text: "いつ",
+                    highlight: true,
+                },
+                {
+                    text: "ペルーへ行きますか",
+                },
+            ],
+            [
+                {
+                    text: "     ...来週行きます",
+                },
+            ],
+        ],
+    },
+    {
+        "title": [
+            {
+                text: "ーよ",
+            },
+        ],
+        "examples": [
+            [
+                {
+                    text: "この電車は甲子園へ行きますか",
+                },
+            ],
+            [
+                {
+                    text: "     ...いいえ、行きません",
+                },
+            ],
+            [
+                {
+                    text: "     次のです",
+                },
+                {
+                    text: "よ",
+                    highlight: true,
+                },
+            ],
+        ],
+    },
+    {
+        "title": [
+            {
+                text: "そうですね",
+            },
+        ],
+        "examples": [
+            [
+                {
+                    text: "あしたは日曜日ですね",
+                },
+            ],
+            [
+                {
+                    text: "     ...あ、",
+                },
+                {
+                    text: "そうですね",
                     highlight: true,
                 },
             ],
