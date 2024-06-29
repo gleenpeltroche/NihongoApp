@@ -14,13 +14,13 @@ const ModalMinnaNoNihongo = ({modalVisible, setModalVisible, actual, setActual}:
   return (
     <ModalComponent modalVisible={modalVisible} setModalVisible={setModalVisible}>
       <Text category='h4' style={styles.lessonTitle}>Select Lesson</Text>
-      {[0,1,2,3,4].map((element) => (
+      {[0,1,2,3,4,5].map((element) => (
         <ButtonGroup key={element}
             style={{...styles.buttonGroup}}
             status='basic'
         >
-            {[1,2,3,4,5].map((chapter, id) => (
-                <Button style={[styles.button, actual == element*5+chapter && styles.buttonSelected]} key={id} onPress={() => setActual(element*5+chapter)}>{element*5+chapter}</Button>
+            {[1,2,3,4].map((chapter, id) => (
+                <Button style={[styles.button, actual == element*5+chapter && styles.buttonSelected]} key={id} onPress={() => setActual(element*4+chapter)}>{element*4+chapter}</Button>
             ))}
         </ButtonGroup>
       ))}

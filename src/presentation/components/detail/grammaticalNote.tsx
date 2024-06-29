@@ -1,22 +1,12 @@
 import { StyleSheet } from "react-native";
 import { Divider, Layout, Text } from "@ui-kitten/components"
 import GlobalColors from "../../styles/global.colors";
+import { GrammarLesson } from "../../../infrastructure/interfaces/MinnaNoNihongo.interface";
 
 interface Prop {
-    note: Note;
+    note: GrammarLesson;
     id: number;
 }
-
-export interface Note {
-    title:   Parts[];
-    examples: Array<Parts[]>;
-}
-
-export interface Parts {
-    text:       string;
-    highlight?: boolean;
-}
-
 
 const GrammaticalNote = ({note, id}: Prop) => {
     return (

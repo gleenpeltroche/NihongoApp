@@ -1,5 +1,7 @@
 import { JapenseTextOptions } from "../../domain/entities/kanjiDetail";
+import { GrammarLesson } from "../../infrastructure/interfaces/MinnaNoNihongo.interface";
 import { Example } from "../../infrastructure/interfaces/kanjiDetail";
+import { GrammarLesson1, GrammarLesson2, GrammarLesson3, GrammarLesson4, GrammarLesson5 } from "../../data/GramaticalNotesMNN";
 
 export class Utils {
 
@@ -38,5 +40,22 @@ export class Utils {
             }
         })
         
+    }
+
+    static getGrammarLesson(lesson: number): GrammarLesson[]{
+        switch (lesson) {
+            case 1:
+                return GrammarLesson1;
+            case 2:
+                return GrammarLesson2;
+            case 3:
+                return GrammarLesson3;
+            case 4:
+                return GrammarLesson4;
+            case 5:
+                return GrammarLesson5;
+            default:
+                return GrammarLesson1;
+        }
     }
 }
